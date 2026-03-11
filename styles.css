@@ -14,7 +14,7 @@ header {
   text-align: left;
 }
 
-p{
+p {
   background-color: white; /* background color */
   font-family: 'Quicksand', sans-serif; /* Use quicksand, else, use the browser's sans-serif font. */
   color: black;
