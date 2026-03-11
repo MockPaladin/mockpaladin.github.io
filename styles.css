@@ -14,7 +14,7 @@ header {
   text-align: left;
 }
 
-p, a {
+p{
   background-color: white; /* background color */
   font-family: 'Quicksand', sans-serif; /* Use quicksand, else, use the browser's sans-serif font. */
   color: black;
@@ -35,10 +35,22 @@ button {
   font-size: 1.125em;
   font-family: 'Quicksand', sans-serif;
   transition: background-color 0.3s ease;
-  margin-left: 46%;
-  width: 8%; 
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px; 
 }
 
 button:hover {
   background-color: #32373c;
+}
+
+a {
+  font-family: 'Quicksand', sans-serif; /* Use quicksand, else, use the browser's sans-serif font. */
+  font-weight: 600;
+  color: hsl(185, 79%, 41%); /* from https://springkonstant.org */
+  text-decoration: none; /* remove underline */
+}
+
+a:hover {
+  text-decoration: underline;
 }
